@@ -204,7 +204,7 @@ AI tools were used as a learning aid to:
 - Debug specific implementation issues
 
 All code was written, understood, and tested by me.
-No code was blindly copied.
+No code was blindly copied
 
 ---
 
