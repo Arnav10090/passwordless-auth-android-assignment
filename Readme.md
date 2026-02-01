@@ -25,42 +25,36 @@ The app is fully local (no backend) and demonstrates clean architecture, proper 
 
 The app follows a **clean MVVM architecture** with unidirectional data flow:
 
-UI (Compose)
-↓ events
-ViewModel
-↓ state
-UI State (StateFlow)
-
-shell
-Copy code
+```
+UI (Compose) ↓ events ViewModel ↓ state UI State (StateFlow)
+```
 
 ### Package Structure
 
+```
 com.example.passwordlessauth
 │
 ├── data
-│ ├── OtpData.kt
-│ ├── OtpManager.kt
-│ └── OtpResult.kt
+│   ├── OtpData.kt
+│   ├── OtpManager.kt
+│   └── OtpResult.kt
 │
 ├── viewmodel
-│ └── AuthViewModel.kt
+│   └── AuthViewModel.kt
 │
 ├── presentation
-│ ├── AuthRoot.kt
-│ ├── LoginScreen.kt
-│ ├── OtpScreen.kt
-│ ├── SessionScreen.kt
-│ └── ErrorScreen.kt
+│   ├── AuthRoot.kt
+│   ├── LoginScreen.kt
+│   ├── OtpScreen.kt
+│   ├── SessionScreen.kt
+│   └── ErrorScreen.kt
 │
 ├── ui.theme
-│ └── Theme / Color / Typography files
+│   └── Theme / Color / Typography files
 │
 ├── App.kt
 └── MainActivity.kt
-
-yaml
-Copy code
+```
 
 ### Design Principles
 
@@ -188,10 +182,9 @@ These trade-offs were intentional to match the assignment scope.
 ### Steps to Run
 
 1. Clone the repository:
-   git clone https://github.com/Arnav10090/passwordless-auth-android-assignment
-
-yaml
-Copy code
+```
+git clone https://github.com/<your-username>/passwordless-auth-android.git
+```
 
 2. Open Android Studio → **Open** → select the cloned folder
 
