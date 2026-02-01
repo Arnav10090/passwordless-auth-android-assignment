@@ -198,13 +198,13 @@ No additional configuration is required.
 
 ## 🤖 AI Usage Disclosure
 
-AI tools were used as a learning aid to:
+ChatGpt was used by me as a learning aid to:
 - Clarify Jetpack Compose patterns
 - Validate architectural decisions
 - Debug specific implementation issues
 
 All code was written, understood, and tested by me.
-No code was blindly copied
+No code was blindly copied.
 
 ---
 
