@@ -79,7 +79,7 @@ class AuthViewModel(
                 logger.logOtpFailure(email, "Attempts exceeded")
 
                 _authState.value =
-                    AuthState.Error("Maximum attempts exceeded. Please request a new OTP.")
+                    AuthState.Error("Maximum attempts exceeded.")
             }
 
             OtpResult.NotFound -> {
