@@ -19,6 +19,10 @@ The app is fully local (no backend) and demonstrates clean architecture, proper 
 - Logout functionality
 - Event logging using Timber
 
+### OTP Handling
+OTP is generated locally as per assignment requirements.
+For testing, the generated OTP is logged using Timber.
+Please check Logcat to retrieve the OTP value.
 ---
 
 ## 🏗 Architecture Overview
